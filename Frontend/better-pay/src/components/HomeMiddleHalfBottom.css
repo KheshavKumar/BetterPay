@@ -1,0 +1,17 @@
+.smallCustHolder{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.custImageOverlayHolder{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.custImageOverlayHolderSubTilte{
+    font-weight: 300;
+    text-align: left;
+}
+.custImageOverlayHolderTitle{
+    text-align: left;
+}
