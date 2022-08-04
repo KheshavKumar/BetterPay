@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  bottom: 0;
+  font-family: Roboto, sans-serif;
+}
 .App {
   text-align: center;
 }
