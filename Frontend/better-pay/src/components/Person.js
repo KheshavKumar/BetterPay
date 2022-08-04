@@ -1,6 +1,6 @@
 import React from "react";
 
-const person = () => {
+const Person = () => {
   return <div>person</div>;
 };
 /*
@@ -15,4 +15,4 @@ const person = () => {
 - [list of loans taken out]
 - [list of loans given out]
 */
-export default person;
+export default Person;
