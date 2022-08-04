@@ -3,8 +3,8 @@ import Header from './Header'
 const Dashboard = () => {
   return (
     <div>
-        <Header></Header>
-        Dashboard Page
+      <Header></Header>
+      <p>dashboard</p>
     </div>
   )
 }
