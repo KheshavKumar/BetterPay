@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
+import Header from './Header'
+const Dashboard = () => {
+  return (
+    <div>
+        <Header></Header>
+        Dashboard Page
+    </div>
+  )
+}
 
-const dashboard = () => {
-  return <div>dashboard</div>;
-};
-
-export default dashboard;
+export default Dashboard
