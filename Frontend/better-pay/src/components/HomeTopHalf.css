@@ -1,0 +1,36 @@
+.titleTopHalf {
+    color: #171D24;
+    font-weight: bolder;
+    font-size: 50pt;
+    text-align: left;
+    line-height: 60pt;
+}
+.subtitle {
+    text-align: left;
+    font-weight: 400;
+    color: #0050B2;
+    font-size: 25pt;
+}
+
+.buttonHolderLink{
+    display: flex;
+}
+.button {
+    border-radius: 25px;
+    padding-left: 15px;
+}
+/* .leftSideHolder{
+    padding-top: 5%;
+} */
+.holder {
+    border: blue dotted 1px;
+}
+.leftSideHolder {
+    display: flex;
+    flex-direction: column;
+}
+.leftSideHOLDER {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
