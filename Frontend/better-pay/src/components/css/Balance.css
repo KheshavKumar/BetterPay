@@ -12,17 +12,20 @@
   margin: 30px;
 }
 
-p {
-  font-size: 14px;
+.yourBalance {
+  font-size: 18px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  width: 100px;
+  width: 1000px;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .balanceAmount {
+  margin-top: 0;
   font-size: 20px;
   font-weight: 700;
 }

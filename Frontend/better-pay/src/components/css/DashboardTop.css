@@ -1,4 +1,6 @@
-.mainContent {
-  margin-top: 100px;
-  background-color: black;
+.mainContentU {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -2,12 +2,12 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import DashboardBottom from './DashboadBottom'
-
+import DashboardTop from './DashboardTop'
 const Dashboard = () => {
   return (
     <div>
        <Header></Header>
-        Dashboard Page
+        <DashboardTop></DashboardTop>
         <DashboardBottom>
           
         </DashboardBottom>

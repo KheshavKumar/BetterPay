@@ -42,7 +42,7 @@ const DashboardBottom = () => {
       </tbody>
     </Table>
 
-    <p>Loan Figuers</p>
+    <p>Loan Figures</p>
 
     <Form.Select aria-label="Listview">
       <option>Pick</option>
@@ -64,8 +64,8 @@ const DashboardBottom = () => {
             
         </CDBBox>
         <CDBBox display="flex" justifyContent="center">
-            <CDBBtn block={true} color="success" circle>
-             Sumbit
+            <CDBBtn block={true} className="SubmitButton1" color="success" circle>
+             Submit
             </CDBBtn>
         </CDBBox>
         

@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Balance from "./Balance";
-// /import "./css/DashboardTop";
+import "./css/DashboardTop.css";
 import LoanCard from "./LoanCard";
 const DashboardTop = () => {
+  const [count, setCount] = useState(0);
   return (
-    <div className="mainContent">
+    <div
+      className="mainContentU"
+      onClick={() => {
+        setCount(count + 1);
+        console.log("clicked" + count);
+      }}
+    >
       <Balance />
-      <div className="card">
+      <div className="cards">
         <LoanCard type="taken" />
 
-        <LoanCard type="given" />
+        <LoanCard type="given" count="count" />
+        <LoanCard type="pending" />
       </div>
     </div>
   );
