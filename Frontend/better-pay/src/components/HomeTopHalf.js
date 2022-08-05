@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import './HomeTopHalf.css'
-import image from '../assets/homePageTopHalfImage.svg'
+import image from '../assets/homePageTopHalfImage.png'
 
 const HomeTopHalf = () => {
   return (
@@ -15,7 +15,7 @@ const HomeTopHalf = () => {
         <Container>
             <Row className="justify-content-md-center">
                 <Col>
-                    <img className='image' src={image} alt="Logo" />
+                    <img className='image' src={image} width="100%" alt="Logo" />
                 </Col>
                 <Col md="auto" className='leftSideHOLDER'>
                 <div className='leftSideHolder'>
