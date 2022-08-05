@@ -6,7 +6,7 @@ import DashboardBottom from './DashboadBottom'
 const Dashboard = () => {
   return (
     <div>
-        <Header></Header>
+       <Header></Header>
         Dashboard Page
 
 
