@@ -6,8 +6,9 @@ const Balance = () => {
   return (
     <div className="label-Balance">
       <p className="yourBalance">Your Balance</p>
+      
       <p className="balanceAmount">
-        $ {Number(currentUser.balance).toFixed(2)}
+        ${Number(currentUser.balance).toFixed(2)}
       </p>
     </div>
   );

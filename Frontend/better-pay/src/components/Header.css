@@ -7,8 +7,11 @@
 }
 .navBar {
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 100px;
     padding-right: 100px;
+    background-color: #F0FCF5;
+
 }
 .welcome{
     font-weight: 500;

@@ -113,7 +113,7 @@ const LoanCard = (props) => {
   return (
     <div className="cardUni">
       <h2 className="h2Kheshav">
-        Loans <span style={{ color: "orange" }}>{props.type}</span> decision
+        Loans <span style={{ color: "orange" }}>{props.type}</span>
       </h2>
 
       {pendingLoans.map((ele, i) => (

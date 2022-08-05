@@ -11,7 +11,7 @@ import image from '../assets/homePageTopHalfImage.svg'
 
 const HomeTopHalf = () => {
   return (
-    <div >
+    <div className='hometophaldholder'>
         <Container>
             <Row className="justify-content-md-center">
                 <Col>

@@ -12,7 +12,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div>
+    <div className='headerholder'>
         <Stack className="navBar" direction="horizontal" gap={3}>
           <img className="logo" src={logo} alt="Logo" />
           <h1 className="title">BetterPay</h1>

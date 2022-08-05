@@ -14,11 +14,17 @@ padding-bottom: 60px;
 .column1{
  padding-bottom: 40px; 
     text-align: left;
+    font-weight: 300;
+    font-size: 15px;
+
+
 }
 
 .column1h{
     text-align: left;
     padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 .column2{
@@ -26,12 +32,18 @@ padding-bottom: 60px;
     padding-top: 5px;
     text-align: right;
     padding-bottom: 70px;
+    font-weight: 300;
+    font-size: 15px;
+
+    
 
 }
 
 .column2h{
    text-align: right;
    padding-bottom: 10px;
+   font-weight: bolder;
+
 }
 
 .copyright{
