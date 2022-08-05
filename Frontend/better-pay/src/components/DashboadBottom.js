@@ -66,10 +66,12 @@ const DashboardBottom = () => {
         </div>
         <CDBContainer>
           <CDBBox className='loanDataHolder'>
-            <CDBInput type="text" placeholder="Amount in $" color="success" />
-            <CDBInput type="text" placeholder="Interest Rate" color="success" />
-            <CDBInput type="text" placeholder="Return Date" color="warning" />
+            <CDBInput className="inputFeilds" type="text" placeholder="Amount in $" color="success" />
+            <CDBInput className="inputFeilds" type="text" placeholder="Interest Rate" color="success" />
+            <CDBInput className="inputFeilds" type="text" placeholder="Return Date" color="warning" />
           </CDBBox>
+          <p className='aggremetn'>By clicking the button bellow, you agree to our terms and agreements.</p>
+
           <div className='requestWraper'>
           <div className='requestHolder'>
             <p className='requestText'>Request</p>
