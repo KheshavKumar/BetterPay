@@ -8,8 +8,6 @@ const Dashboard = () => {
     <div>
        <Header></Header>
         Dashboard Page
-
-
         <DashboardBottom>
           
         </DashboardBottom>
