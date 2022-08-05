@@ -1,45 +1,45 @@
-.hometophaldholder{
-    background-color: #F0FCF5;
-    padding-top: 10px;
-    padding-bottom: 100px;
+.hometophaldholder {
+  background-color: #f0fcf5;
+  padding-top: 10px;
+  padding-bottom: 100px;
 }
 .titleTopHalf {
-    color: #171D24;
-    font-weight: bolder;
-    font-size: 50pt;
-    text-align: left;
-    line-height: 60pt;
+  color: #171d24;
+  font-weight: bolder;
+  font-size: 50pt;
+  text-align: left;
+  line-height: 60pt;
 }
 .subtitle {
-    text-align: left;
-    font-weight: 400;
-    color: #0050B2;
-    font-size: 25pt;
+  text-align: left;
+  font-weight: 400;
+  color: #0050b2;
+  font-size: 25pt;
 }
 
-.buttonHolderLink{
-    display: flex;
-    text-decoration: none;
-
+.buttonHolderLink {
+  display: flex;
+  text-decoration: none;
 }
 .button {
-    border-radius: 100px;
-    padding-left: 15px;
-    background-color: #0050B2;
-    text-decoration: none;
+  border-radius: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #0050b2;
+  text-decoration: none;
 }
 /* .leftSideHolder{
     padding-top: 5%;
 } */
 .holder {
-    border: blue dotted 1px;
+  border: blue dotted 1px;
 }
 .leftSideHolder {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .leftSideHOLDER {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
