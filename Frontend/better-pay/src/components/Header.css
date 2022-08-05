@@ -1,0 +1,33 @@
+
+.title {
+    color: #0050B2;
+    font-weight: bolder;
+    font-size: 20pt;
+    padding-top: 10px;
+}
+.navBar {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.welcome{
+    font-weight: 500;
+    font-size: 10pt;
+    color: white;
+    padding-top: 6px;
+
+}
+.welcomeHolder{
+    background-color: #0050B2;
+    border-radius: 25px;
+    height: 35px;
+}
+.pageItem{
+    color: #292d30;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 10pt;
+}
+.pageItemHolder{
+    padding-right: 40px;
+}
