@@ -37,3 +37,29 @@
     text-align: left;
     font-weight: 300;
 }
+.avatar {
+    position: relative;
+    margin: 0 auto;
+
+}
+.avatarImage {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.avatar:hover .overlay {
+    opacity: 1;
+}
