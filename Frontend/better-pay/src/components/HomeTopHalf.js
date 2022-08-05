@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import './HomeTopHalf.css'
-import image from '../assets/homePageTopHalfImage.png'
+import image from '../assets/homePageTopHalfImage.svg'
 
 const HomeTopHalf = () => {
   return (
@@ -30,7 +30,6 @@ const HomeTopHalf = () => {
                 </Col>
             </Row>
         </Container> 
-     
     </div>
   )
 }
