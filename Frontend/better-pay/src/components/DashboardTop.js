@@ -12,6 +12,7 @@ const DashboardTop = () => {
         console.log("clicked" + count);
       }}
     >
+      <p className="titleDashTop">Welcome to your dashboard</p>
       <Balance />
       <div className="cards">
         <LoanCard type="taken" />

@@ -1,7 +1,7 @@
 .label-Balance {
   background: #fafff7;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 33px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
   height: fit-content;
   width: 240px;
   
@@ -9,7 +9,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  border: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 .yourBalance {
@@ -20,12 +23,18 @@
   align-items: center;
   flex-wrap: nowrap;
   width: 1000px;
-  margin-top: 30px;
   margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0;
 }
 
 .balanceAmount {
   margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
   font-size: 20px;
   font-weight: 700;
+  font-size: 30px;
+  font-weight: bold;
 }
