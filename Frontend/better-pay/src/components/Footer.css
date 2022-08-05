@@ -1,0 +1,39 @@
+.main-footer{
+background-color: #171D24;
+color: aliceblue;
+padding-top: 40px;
+padding-bottom: 60px;
+}
+
+.footer-bottom{
+
+
+
+}
+
+.column1{
+ padding-bottom: 40px; 
+    text-align: left;
+}
+
+.column1h{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.column2{
+    padding-left: 250px;
+    padding-top: 5px;
+    text-align: right;
+    padding-bottom: 70px;
+
+}
+
+.column2h{
+   text-align: right;
+   padding-bottom: 10px;
+}
+
+.copyright{
+    text-align: center;
+}

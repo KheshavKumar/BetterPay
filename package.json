@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "cdbreact": "^1.5.3",
+    "react-bootstrap": "^2.4.0",
+    "styled-components": "^5.3.5"
+  }
+}
